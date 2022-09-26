@@ -1,0 +1,102 @@
+{
+  "id": "9d06cc20-c5a4-44d2-b09e-dda9e60030a2",
+  "version": "2.0",
+  "name": "Google Testing",
+  "url": "www.flipkart.com",
+  "tests": [{
+    "id": "5f229900-4aab-4bb4-8431-4d0305d1e9d6",
+    "name": "Google Testing",
+    "commands": [{
+      "id": "8dd686fd-974b-41c5-9033-6904acfb9171",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5a917a7-e8bb-49ba-99c4-1b5ce9564034",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "654x366",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b178951-cced-4a9b-89e3-c759b408f8c9",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "049a88e5-6038-4710-a14d-42a47073447d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "88a5a970-e6ee-414e-beaa-ea99ee6c2692",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bugatti"
+    }, {
+      "id": "903adc7c-fde4-489e-9960-51e0ab79db04",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a972b378-ee39-4351-828b-a95eb4a237a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Official BUGATTI Automotive Website')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "486a84e1-0c90-4bb2-bda2-cd4c4fd445f4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d6f49225-c3d6-4007-922a-d3d33bf15de8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5f229900-4aab-4bb4-8431-4d0305d1e9d6"]
+  }],
+  "urls": [],
+  "plugins": []
+}

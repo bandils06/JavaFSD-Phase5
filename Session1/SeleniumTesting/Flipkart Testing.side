@@ -1,0 +1,156 @@
+{
+  "id": "64451bb2-16d3-4fed-8048-c42852310a28",
+  "version": "2.0",
+  "name": "Testing Demo 1",
+  "url": "https://www.flipkart.com/",
+  "tests": [{
+    "id": "998ea3c0-93c4-474a-b2a3-6fadbc4bae05",
+    "name": "Flipkart Testing",
+    "commands": [{
+      "id": "bd4e530d-ea35-497c-b77a-2d65c2f59d90",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "334aec65-8701-4129-95d1-cd43dbf048e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cbeb1e1-b6b2-4d08-8e2a-4c8db9689f8d",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f786beb1-135a-4033-a121-c8b8ee716fc2",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone 14 p"
+    }, {
+      "id": "5836e546-d7f5-428e-8c5b-a5beed7e3933",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "8535cbf4-b435-40f2-b6df-f11ba6ebc8da",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "af3fd64c-2094-468d-8c4b-5b4fb6c05266",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "72bcef7e-b808-46af-94cf-fe2802c019cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(8) .\\_4rR01T",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(8) .\\_4rR01T", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[8]/div/div/div/a/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/a/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7698",
+      "windowTimeout": 2000
+    }, {
+      "id": "f7c785b0-78f2-4151-be29-9cb77dfe854c",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1eeb539-5f3f-4ff0-b1d2-5c3802f53f26",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7698}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa27e825-60e0-431e-a453-42c3ffa66a58",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1294a3e2-4611-439c-8bff-182ae214113d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66d8b47b-d533-42b6-b02e-949f3c6c8370",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7698}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8fa2e00-2903-4793-bb93-a1acb47be9db",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d5f22799-7e03-49c6-9ed0-777fdb5e11c5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["998ea3c0-93c4-474a-b2a3-6fadbc4bae05"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
