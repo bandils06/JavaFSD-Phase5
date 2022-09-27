@@ -1,0 +1,311 @@
+{
+  "id": "43d43cba-da65-4cc7-a533-ad684e096349",
+  "version": "2.0",
+  "name": "TESTING_Rec",
+  "url": "https://www.facebook.com/",
+  "tests": [{
+    "id": "dfb8193a-55c7-48a3-96c0-06df01121798",
+    "name": "Google Test",
+    "commands": [{
+      "id": "52c3e2fa-f8a7-4d50-aeb9-4dc5138e6437",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c517692b-60b2-4040-8dd0-8bc476bec4dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0b63b10-ea01-4a90-bffa-debe1ed52766",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d378ba-a1ca-4fe2-a481-b2a954a3b1d4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "05b45265-8fc4-4f60-9cbc-eb86323cc37f",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium google chrome driver"
+    }, {
+      "id": "9d928f1f-444b-41bc-83bc-8fc25fd8a59d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "84946e14-ac5c-4203-972d-c81fdfaffe0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g > div .kvH3mc .LC20lb",
+      "targets": [
+        ["css=.g > div .kvH3mc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'ChromeDriver - WebDriver for Chrome - Downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d2cda89-579c-4c47-b49a-8f2c7fe4bebc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "63ecb32b-0a64-4371-bdae-4c4076fcb6d8",
+    "name": "Flipkart Test",
+    "commands": [{
+      "id": "8c06ef85-8c3b-4c52-94bc-1fe3f6e330bf",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d33c09e-9aff-43fc-a272-492b42d84c43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5a56d71-3c92-4388-b9ae-099784024c28",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e699560c-f4f0-49b1-863c-7a779b96ced4",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone 14 pro"
+    }, {
+      "id": "0cf922a6-6c94-4678-8705-b76388ddda90",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6632c4de-b44d-4c03-950f-3aae4fe98559",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(2) .\\_4rR01T",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) .\\_4rR01T", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3069",
+      "windowTimeout": 2000
+    }, {
+      "id": "67b48b40-2693-4d67-9d04-5a417588ba3b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3aab32bb-605d-4525-8b3e-edb24f1e6e47",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3069}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c60623c5-5523-4719-ba79-fb80ae5e8ad1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a750248a-b486-470a-9bfa-15f93ea2d53a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "087d679e-b3e9-44bc-8c98-38cadaf8769c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c88cf6f-02d4-413f-a07b-801d063090af",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c711a19-ac32-4459-bfe6-3352f5fb9d86",
+    "name": "Gmail Test",
+    "commands": [{
+      "id": "2a1b8935-78d3-43a6-af78-62ddbdfee0cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/intl/en-GB/gmail/about/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4081d72-4e96-4727-815c-195569c59362",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7aaf628-cb60-4832-870b-2127c6e77bc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feature__chapter__button > .button--low",
+      "targets": [
+        ["css=.feature__chapter__button > .button--low", "css:finder"],
+        ["xpath=(//a[contains(text(),'For work')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://workspace.google.com/products/gmail/index.html?utm_source=gmailforwork&utm_medium=et&utm_campaign=hero&utm_content=forwork')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f91eabde-856b-4c42-ae90-8e808ebcda26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close > svg",
+      "targets": [
+        ["css=.close > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "294f354d-08af-451f-b81d-de541125c9a8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "87273ce0-7510-4166-8c9e-c249b373bee1",
+    "name": "Google Title Test",
+    "commands": [{
+      "id": "e7b8cda3-fcf5-4465-9899-2bd0e2786f58",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6dbbde6-58a1-4ffc-a29f-38d6b5e1395a",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Google",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0ab4cce-ce3b-4be1-a2e4-e6e09ba247eb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "750a1aa4-fd38-4726-9283-99194fa7791a",
+    "name": "Facebook Title Test",
+    "commands": [{
+      "id": "3046a883-63b6-4c7a-bdd3-a5b0a87b4e80",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc3f3bec-c501-45fc-b8fe-e86d7bb17b50",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Facebook – log in or sign up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42843a62-8aae-4b3d-9df7-ba44940b8700",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4bb40490-d2ab-4f8d-a595-bbf322b226f6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dfb8193a-55c7-48a3-96c0-06df01121798"]
+  }],
+  "urls": ["https://www.google.com/", "https://www.flipkart.com/", "https://www.google.com/intl/en-GB/gmail/about/", "https://www.facebook.com/"],
+  "plugins": []
+}
