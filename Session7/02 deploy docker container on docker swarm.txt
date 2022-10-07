@@ -7,6 +7,7 @@ we have already prepared one image 'myimage' pilled from git hub and pushed to d
 continue...
 
 
+
 -------------------------------------------------------------------
 docker swarm: manageing multiple containers running on different host
 
